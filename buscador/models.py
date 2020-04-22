@@ -1,6 +1,6 @@
 from django.db import models
 from djongo.models import DecimalField, FloatField, URLField
-from djmoney.models.fields import MoneyField
+
 
 # Create your models here.
 class Parkings(models.Model):
