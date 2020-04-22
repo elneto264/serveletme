@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vaads)onh+h$6_c8%fl&obuju!l!r_&emf&z7sij$!-tt3icr6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['buscador-letmepark.herokuapp.com']
 
