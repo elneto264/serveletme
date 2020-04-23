@@ -76,7 +76,7 @@ function elegirDireccion(lat, lng, tipo_osm) {
 function direccion_buscador() {
     var entrada = document.getElementById("direccion");
 
-    $.getJSON('http://nominatim.OpenStreetMap.org/search?format=json&limit=5&q=' + entrada.value, function(data) {
+    $.getJSON('https://nominatim.OpenStreetMap.org/search?format=json&limit=5&q=' + entrada.value, function(data) {
     // esto ndica como limitar solo para españa
 
     //$.getJSON('http://nominatim.OpenStreetMap.org/search?format=json&countrycodes=es&limit=5&q=' + entrada.value, function(data) {    
