@@ -4,7 +4,7 @@ var tipo;
 function cargar_mapa() {
     mapa = new L.Map('mapa', { zoomControl: true });
     var osmUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-    var osmAttribution = 'Map data &copy; 2012 <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+    var osmAttribution = 'Map data &copy; 2012 <a href="https://openstreetmap.org">OpenStreetMap</a> contributors';
     var layer_osm = new L.TileLayer(osmUrl, { maxZoom: 18, attribution: osmAttribution });
     mapa.setView(new L.LatLng(40.4165, -3.70256), 13).addLayer(layer_osm);
 }
